@@ -1,3 +1,5 @@
+require 'oauth2'
+
 class YouTubeIt
   class Client
     include YouTubeIt::Logging
