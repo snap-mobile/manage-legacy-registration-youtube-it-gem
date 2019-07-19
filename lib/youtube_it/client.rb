@@ -416,14 +416,14 @@ class YouTubeIt
     end
 
     def oauth_client
-      @oauth_client ||= ::OAuth2::Client.new(@client_id, @client_secret,
+      @oauth_client ||= OAuth2::Client.new(@client_id, @client_secret,
                                              :site => "https://accounts.google.com",
                                              :authorize_url => '/o/oauth2/auth',
                                              :token_url => '/o/oauth2/token')
     end
     
     def access_token
-      @access_token ||= ::OAuth2::AccessToken.new(oauth_client, @client_access_token, :refresh_token => @client_refresh_token, :expires_at => @client_token_expires_at)
+      @access_token ||= OAuth2::AccessToken.new(oauth_client, @client_access_token, :refresh_token => @client_refresh_token, :expires_at => @client_token_expires_at)
     end
 
     def refresh_access_token!
