@@ -38,6 +38,3 @@ DEPENDENCIES
   oauth2 (~> 0.5.2)
   simple_oauth (~> 0.1.5)
   webmock (~> 1.7.10)
-
-BUNDLED WITH
-   1.17.0.pre.2
