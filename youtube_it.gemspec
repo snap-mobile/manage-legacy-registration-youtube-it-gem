@@ -76,14 +76,14 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<oauth>, ["~> 0.4.4"])
       s.add_runtime_dependency(%q<oauth2>, ["~> 0.5.2"])
       s.add_runtime_dependency(%q<simple_oauth>, ["~> 0.1.5"])
-      s.add_runtime_dependency(%q<faraday>, ["~> 0.7.3"])
+      s.add_runtime_dependency(%q<faraday>, ["~> 0.8.0"])
       s.add_runtime_dependency(%q<jeweler>, ["~> 1.8.3"])
       s.add_runtime_dependency(%q<builder>, [">= 0"])
     else
       s.add_dependency(%q<oauth>, ["~> 0.4.4"])
       s.add_dependency(%q<oauth2>, ["~> 0.5.2"])
       s.add_dependency(%q<simple_oauth>, ["~> 0.1.5"])
-      s.add_dependency(%q<faraday>, ["~> 0.7.3"])
+      s.add_dependency(%q<faraday>, ["~> 0.8.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
       s.add_dependency(%q<builder>, [">= 0"])
     end
@@ -91,7 +91,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<oauth>, ["~> 0.4.4"])
     s.add_dependency(%q<oauth2>, ["~> 0.5.2"])
     s.add_dependency(%q<simple_oauth>, ["~> 0.1.5"])
-    s.add_dependency(%q<faraday>, ["~> 0.7.3"])
+    s.add_dependency(%q<faraday>, ["~> 0.8.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
     s.add_dependency(%q<builder>, [">= 0"])
   end
